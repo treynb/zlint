@@ -1,6 +1,6 @@
 {
   "name": "@treynb/eslint-config-zlint",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0",
   "description": "z lint config",
   "main": "index.js",
   "scripts": {
