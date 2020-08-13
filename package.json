@@ -1,0 +1,32 @@
+{
+  "name": "@treynb/eslint-config-zlint",
+  "version": "0.1.0-beta.0",
+  "description": "z lint config",
+  "main": "index.js",
+  "scripts": {
+    "postpublish": "git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treynb/zlint.git"
+  },
+  "author": "jacky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/treynb/zlint/issues"
+  },
+  "homepage": "https://github.com/treynb/zlint#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint-config-airbnb-typescript": "^8.0.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.5"
+  },
+  "peerDependencies": {
+    "eslint": "^7.4.0"
+  }
+}
